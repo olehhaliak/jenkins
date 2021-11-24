@@ -1,8 +1,8 @@
 pipeline{
-    agent all
+    agent any
 
-    stages{
-        stage('FIRST'){
+    steps{
+        step('FIRST'){
             echo 'first'
         }
     }
